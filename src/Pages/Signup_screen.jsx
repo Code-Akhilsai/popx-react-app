@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-const Signup = () => {
+import Input from "../Components/Input.jsx";
+const Signup_screen = () => {
   const nav_profile = useNavigate();
 
   return (
@@ -51,20 +52,4 @@ const Signup = () => {
   );
 };
 
-const Input = ({ label, type = "text" }) => {
-  return (
-    <div className="relative">
-      <label className="absolute -top-2 left-3 bg-[#F7F8F9] px-1 text-[13px] text-[#6C25FF]">
-        {label}
-      </label>
-
-      <input
-        type={type}
-        placeholder="Marry Doe"
-        className="w-full h-11 border border-gray-300 rounded-md px-3 outline-none bg-transparent"
-      />
-    </div>
-  );
-};
-
-export default Signup;
+export default Signup_screen;

@@ -9,7 +9,7 @@ const Landing_screen = () => {
         Welcome to PopX
       </h1>
 
-      <p className="text-[#1D2226] text-[15px] mt-2 opacity-60">
+      <p className="text-[#1D2226] text-[15px] mt-2 opacity-60 font-semibold">
         Lorem ipsum dolor sit amet,
         <br />
         consectetur adipiscing elit,
