@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
 const Signup = () => {
+  const nav_profile = useNavigate();
+
   return (
     <div className=" h-160 bg-[#F7F8F9] px-5 pt-10 flex flex-col sm:border sm:border-gray-300 sm:h-167 sm:w-90 sm:pb-8">
       <h1 className="text-[28px] font-bold text-[#1D2226] leading-tight opacity-100">
@@ -38,7 +41,10 @@ const Signup = () => {
         </div>
       </div>
 
-      <button className="mt-auto mb-5 w-full h-12 bg-[#6C25FF] text-white rounded-md font-semibold">
+      <button
+        onClick={() => nav_profile("/profile")}
+        className="mt-auto mb-5 w-full h-12 bg-[#6C25FF] text-white rounded-md font-semibold"
+      >
         Create Account
       </button>
     </div>
