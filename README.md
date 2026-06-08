@@ -20,6 +20,4 @@ A pixel-perfect implementation of the PopX mobile app UI built with React, Vite,
 
 [Netlify Link Here]
 
-## GitHub Repository
-
-[Repository Link Here]
+https://akhilsai-popx.netlify.app/
