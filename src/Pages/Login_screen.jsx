@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Input from "../Components/Input.jsx";
 const Login_screen = () => {
-  const navigate = useNavigate();
+  const nav_profile = useNavigate();
 
   return (
     <div className="h-160 bg-[#F7F8F9] px-5 pt-10 sm:border sm:border-gray-300 sm:h-167 sm:w-90 ">
@@ -23,7 +23,7 @@ const Login_screen = () => {
         <Input label="Password" type="password" placeholder="Enter password" />
 
         <button
-          onClick={() => navigate("/profile")}
+          onClick={() => nav_profile("/profile")}
           className="w-full h-11 bg-[#CBCBCB] text-white rounded-md font-semibold"
         >
           Login
